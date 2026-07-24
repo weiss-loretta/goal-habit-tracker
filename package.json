@@ -1,6 +1,6 @@
 {
   "name": "goal-habit-tracker-blank",
-  "version": "0.42.1",
+  "version": "0.42.2",
   "private": true,
   "description": "Goal & Habit Tracker mobile IA prototype",
   "scripts": {
@@ -38,6 +38,7 @@
     "smoke:phase-335": "node scripts/smoke-phase-335.mjs",
     "smoke:phase-336": "node scripts/smoke-phase-336.mjs",
     "smoke:phase-337": "node scripts/smoke-phase-337.mjs",
-    "smoke:phase-338": "node scripts/smoke-phase-338.mjs"
+    "smoke:phase-338": "node scripts/smoke-phase-338.mjs",
+    "smoke:phase-339": "node scripts/smoke-phase-339.mjs"
   }
 }

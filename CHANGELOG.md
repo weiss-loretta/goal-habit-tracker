@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.42.2 — Phase 3.39 P0.1 iOS Gesture & Keyboard Stability
+
+### Fixed
+- App shell 改用完整動態 viewport；safe area 不再重複縮短 App 或放大底部導航空白。
+- 統一目標、今日任務、目標詳情任務／習慣的全卡長按排序，並在啟動後鎖定拖拉手勢。
+- 放置位置改用最近合法插入點和清晰插入線，支援清單頂部、底部及卡片間距。
+- 本週拖拉及日程待排拖拉不再由 Safari 捲動／文字選取中途接管。
+- 鍵盤開啟時主面板限制於 visual viewport；標題和名稱欄保持可見，其餘內容獨立捲動。
+
+### Changed
+- 任務、習慣、目標、專案及階段改用短主面板；複雜設定移入穩定第二層面板，資料語意不變。
+
+### Tests
+- 新增 `smoke:phase-339`，覆蓋完整 viewport、底部導航高度、目標／任務／習慣排序、插入線、短面板 identity、keyboard mode 及日程待排拖拉。
+- 更新 Phase 3.32–3.35 測試以覆蓋第二層面板；Phase 3.10–3.39、Schema 7、Timeline 及 UI audit 通過。
+
 ## v0.42.1 — Phase 3.38 iOS Interaction Stability
 
 ### Fixed

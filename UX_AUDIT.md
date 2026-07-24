@@ -1,4 +1,4 @@
-# Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.42.1）
+# Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.42.2）
 
 ## 範圍
 
