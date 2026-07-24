@@ -1,5 +1,8 @@
 # Goal & Habit Tracker — Blank IA Prototype
 
+## Current prototype — v0.42.1
+完成第一輪 iPhone Safari 真機穩定性修正：App shell 固定於 visual viewport，外層文件不再帶動導航上下移動；全卡長按加入 500ms 進度及移動取消；任務、習慣、目標、專案與階段編輯器局部更新時維持同一主面板，並停止反覆搶走中文輸入焦點。目標總覽另加入可恢復安全狀態，日程拖拉自動捲動改用 App 內頁。
+
 ## Current prototype — v0.42.0
 完成 Phase 3.37 發佈硬化：五個主要頁面通過四組手機 viewport matrix，極窄畫面與長名稱不會造成水平 overflow，並全域支援 reduced motion。備份匯入加入 5 MB 限制、future-schema 與巢狀資料驗證、程式內確認、交易式 rollback，以及可見的 localStorage quota 警告；大型資料 fixture 亦納入 smoke test。
 

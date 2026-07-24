@@ -1,5 +1,18 @@
 # Changelog
 
+## v0.42.1 — Phase 3.38 iOS Interaction Stability
+
+### Fixed
+- 固定 App shell 於 visual viewport，移除 Safari 外層文件第二重捲動。
+- 修正慢速捲動誤啟動任務長按、拖拉時文字選取、放手誤開編輯器及習慣不可排序。
+- 修正所有統一編輯器在更改設定時完整退出再滑入，以及 MutationObserver 反覆搶走中文輸入焦點。
+- 日程拖拉自動捲動改為內頁 scroll container；空日程仍保留完整 drop targets。
+- 目標總覽加入 render error 安全 fallback，避免低頻錯誤只顯示空白頁。
+
+### Validation
+- 新增 `smoke:phase-338`，覆蓋固定 viewport、外層捲動鎖定、500ms 長按進度、移動取消、習慣排序、穩定 editor identity、清空後重新輸入、目標頁 fallback 及空日程 drop targets。
+- Schema 維持 7，未改變 Goal／Project／Milestone／Task、Session、Habit、Garden、排程重疊或備份語意。
+
 ## v0.42.0 — Phase 3.37 Release Hardening
 
 ### Changed
