@@ -1,5 +1,9 @@
 # Goal & Habit Tracker — Blank IA Prototype
 
+## Current prototype — v0.42.6-test
+真機回歸版 Build P04D-0725A。五種編輯器的名稱 textarea 完整保留 v0.42.4 已驗證的屬性及 IME 行為，但移出詳細資料 scroll container，改為真正固定的獨立名稱區；詳細資料繼續內部捲動。鍵盤可視邊界下方加入純背景延伸層，填平 iOS Input Assistant 區域後方而不增加內容高度。固定 Sheet 頂部、56px 導航、右側垂直日期 Rail、Schema 7 及 `ght_state_blank` 均維持不變。
+
+
 ## Current prototype — v0.42.5-test
 真機測試版 Build P03D-0725A。任務、習慣、目標、專案及階段編輯器改用 TimeBlocks 式固定頂部 Sheet：鍵盤彈出時面板頂部保持不動，只從底部縮短；工具列與名稱維持可見，詳細資料在內部捲動。底部導航採 56px 本體、6px 上方 padding 及完整 Home Indicator safe area。本週取消頂部橫向放置列，長按拖拉時改顯示右側垂直日期 Rail，同時高亮真正的垂直日期區塊並支援邊緣自動捲動。Schema 維持 7，儲存鍵維持 `ght_state_blank`。
 

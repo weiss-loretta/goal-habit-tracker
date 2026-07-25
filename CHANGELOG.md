@@ -1,5 +1,19 @@
 # Changelog
 
+## v0.42.6-test — Phase 3.42 iOS Title Field Regression
+
+### Fixed
+- 任務、習慣、目標、專案及階段名稱欄移出詳細資料 scroll container，改為固定的獨立名稱區。
+- 保留 v0.42.4 的 textarea、`autocomplete`、IME-safe Enter、`inputmode` 及 `enterkeyhint` 屬性，避免再次改變已驗證的輸入語意。
+- 鍵盤可視邊界下方加入 144px 純背景 Bridge，Input Assistant 後方不再露出 App 中間內容。
+- 詳細資料仍獨立捲動；固定 Sheet 頂部及名稱位置不變。
+
+### Validation
+- 新增 `smoke:phase-342`，逐一驗證五種編輯器的名稱欄均在固定區、詳細資料區沒有名稱 textarea、輸入屬性維持一致，以及鍵盤背景 Bridge 存在。
+- Phase 3.32–3.35、3.41、3.42 及 project check 通過。
+- iOS Input Assistant 是否消失仍須由真機 Safari 驗證；本版以 v0.42.4 DOM 語意及背景行為為回歸基準。
+
+
 ## v0.42.5-test — Phase 3.41 Fixed Sheet & Vertical Week Rail
 
 ### Changed

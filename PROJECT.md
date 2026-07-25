@@ -398,3 +398,10 @@ Timeline
 - 本週移除頂部橫向 drop bar；拖拉時顯示右側垂直七日 Rail，並同步高亮真正的垂直日期區塊。
 - 使用者可直接拖到可見日期區塊，或利用 Rail 跳到畫面外日期；停留及邊緣拖拉會協助捲動。
 - Phase 3.41 不修改 Schema 7、`ght_state_blank` 或 Task／Session 日期語意。
+
+
+## Phase 3.42 iOS 名稱欄回歸修正
+- 五種編輯器的名稱 textarea 從詳細資料捲動容器移至固定名稱區。
+- textarea 屬性與 v0.42.4 保持一致，不改動中文輸入、AutoFill 或 Enter 行為。
+- 鍵盤可視邊界下方以獨立背景 Bridge 覆蓋 Input Assistant 區域，不讓內容區延伸到鍵盤下方。
+- 本修正不改動固定 Sheet anchor、截止日期、本週垂直日期 Rail、Schema 7 或儲存鍵。

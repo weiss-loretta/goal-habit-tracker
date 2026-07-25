@@ -93,3 +93,10 @@ v0.42.0 已完成 320–430px viewport matrix、reduced motion、匯入交易安
 - 本週日期 Rail 使用 44px 以上日期按鈕，避開畫面最右邊的系統手勢區，且與垂直日期區塊提供雙重高亮。
 - 自動化 UI audit：五個主頁均無水平 overflow、過小控制、未命名控制、重複 ID 或原生 select。
 - 仍須以 iPhone Safari 及加入主畫面模式驗證真實鍵盤高度、右側 Rail 手感與邊緣自動捲動速度。
+
+
+## v0.42.6-test iOS 輸入回歸檢查
+- 五個名稱欄均為單一 textarea，並位於詳細資料 scroll container 之外。
+- 固定名稱區與詳細資料區沒有重疊；捲動詳細資料不會移動名稱。
+- 鍵盤背景 Bridge 為純視覺層，不接受點按、不改變內容高度。
+- Chromium 只能驗證 DOM、viewport 與背景結構；Input Assistant 是否消失必須以 iPhone Safari 真機確認。
