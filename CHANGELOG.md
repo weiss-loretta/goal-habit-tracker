@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.42.9-test — Phase 3.45 Exact v0.42.4 Input Comparison
+- 完整恢復 v0.42.4 的五種 textarea 語意及名稱欄在 Sheet body 內的位置。
+- 恢復 v0.42.4 visualViewport 同步、鍵盤 Sheet 頂部、高度、整體捲動及白色背景。
+- 保留 v0.42.8 的資料、簡約所屬位置、完整路徑及日期 Rail。
+- 這是對照診斷版，鍵盤開啟時面板可能暫時較高。
+
 ## v0.42.8-test — Phase 3.44 Minimal Editable Semantics
 - 只剩 iOS「上一個／下一個／完成」工具列；聯絡人／地址 AutoFill 已確認消失。
 - 五種 plaintext contenteditable 名稱欄移除共用鍵盤與 textbox 提示屬性。

@@ -1,5 +1,8 @@
 # Goal & Habit Tracker — Blank IA Prototype
 
+## Current prototype — v0.42.9-test
+Build P07D-0725A。診斷版完整恢復 v0.42.4 已驗證的 textarea、名稱欄 DOM 位置、visualViewport 處理及鍵盤開啟時 Sheet 幾何；保留目前資料、所屬位置摘要、完整路徑及日期 Rail。Schema 7。
+
 ## Current prototype — v0.42.8-test
 Build P06D-0725A。五種 plaintext contenteditable 名稱欄暫時移除 role、aria-multiline、inputmode、enterkeyhint、autocapitalize 及 spellcheck，用於診斷 iOS「上一個／下一個／完成」Input Assistant；其餘 v0.42.7 改動維持。Schema 7。
 

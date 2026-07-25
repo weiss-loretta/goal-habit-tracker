@@ -1,5 +1,9 @@
 # Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.42.1）
 
+## v0.42.9-test 對照診斷
+- 暫時接受鍵盤出現時較高的 Sheet，以換取與 v0.42.4 完全一致的輸入環境。
+- 真機只需先判斷五種名稱欄的「上一個／下一個／完成」工具列是否消失。
+
 ## v0.42.8-test iOS Input Assistant 診斷
 - 名稱欄保留 aria-label，但暫時移除 role、aria-multiline、inputmode、enterkeyhint、autocapitalize 及 spellcheck。
 - 主面板、內部捲動、背景 Bridge、簡約所屬位置與完整路徑不變。
