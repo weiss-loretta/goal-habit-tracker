@@ -1,5 +1,9 @@
 # Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.42.1）
 
+## v0.43.0-test Today IA
+- 移除 Focus／清單雙模式及三項自動推薦，降低今日決策負擔。
+- Garden 與行程維持摘要層級；今日任務直接操作；全部任務預設收合。
+
 ## v0.42.10-test 穩定面板決定
 - 恢復固定 TimeBlocks 式 Sheet、固定名稱區及詳細資料內部捲動。
 - iOS Input Assistant 視為系統鍵盤介面；不再以更換 textarea、contenteditable 或 ARIA 屬性作規避。

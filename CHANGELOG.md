@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.43.0-test — Phase 3.47 Unified Today
+- 合併 Today Focus 與清單，移除切換列、三項推薦及 Today 每週規劃入口。
+- Today 順序改為 Garden 摘要、行程摘要、今日任務、收合全部任務。
+- 全部任務加入目標篩選。
+- 可用時間只計算現在之後；習慣完成顯示綠色完成狀態。
+
 ## v0.42.10-test — Phase 3.46 Stable Sheet Consolidation
 - 結束 Input Assistant 診斷，恢復 v0.42.7 穩定面板架構。
 - 固定 Sheet 頂部與名稱區，詳細資料維持內部捲動。

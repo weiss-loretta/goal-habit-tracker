@@ -1,5 +1,9 @@
 # PROJECT.md — 目標與習慣（目前原型）
 
+## Phase 3.47 Today 單頁整合
+- Build P09D-0725A，Schema 7。
+- 不改資料模型；先以真機驗證 Today 資訊層級、收合清單、目標篩選及剩餘時間。
+
 ## Phase 3.46 穩定面板整合
 - Build P08D-0725A，Schema 7。
 - 產品決定：Safari／PWA 不再嘗試隱藏 iOS Input Assistant；優先確保工具列出現時內容不被遮擋、背景連續及版面穩定。

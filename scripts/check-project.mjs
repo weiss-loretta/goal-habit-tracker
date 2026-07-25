@@ -96,7 +96,7 @@ if (!html.includes('function directTimeEditorHTML(scope)')) fail('Start/end time
 if (!html.includes('function directEffortHTML(scope)')) fail('Task effort summary missing');
 if (!html.includes('function directDurationHTML(scope)')) fail('Current session duration missing');
 if (!html.includes('function directSetDuration(scope,minutes)')) fail('Editable duration wheel missing');
-if (!html.includes('weeklyPlanEntryHTML')) fail('Missing Today weekly planning entry');
+if (!html.includes('todayAllTasksView')) fail('Missing unified Today all-tasks section');
 if (!html.includes("af=baseAf('task')")) fail('FAB does not open Add Action directly');
 if (!html.includes('function viewGoals(){const areaList=state.goals;')) fail('Goal page still depends on Area or Roadmap view');
 if (html.includes("key:'waiting'")) fail('Goal waiting status not removed');
