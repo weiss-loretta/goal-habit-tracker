@@ -1,7 +1,7 @@
 # Goal & Habit Tracker — Blank IA Prototype
 
-## Current prototype — v0.44.3-test
-Build P10D-0725A。Today Focus 與清單合併為單一頁面：Garden 摘要、現在後行程摘要、今日任務及收合的全部任務。全部任務支援目標篩選；習慣完成有持續視覺回饋。Schema 8。
+## Current prototype — v0.44.4-test
+Build P10E-0725A。Today Focus 與清單合併為單一頁面：Garden 摘要、現在後行程摘要、今日任務及收合的全部任務。全部任務支援目標篩選；習慣完成有持續視覺回饋。Schema 8。
 
 ## Current prototype — v0.42.10-test
 Build P08D-0725A。恢復 v0.42.7 已通過真機測試的固定 TimeBlocks 式 Sheet、固定名稱區、內部捲動、連續鍵盤背景及右側日期 Rail。iOS Input Assistant 正式視為系統介面，不再嘗試由網頁隱藏。Schema 8。

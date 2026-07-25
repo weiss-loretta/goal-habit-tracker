@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.44.3-test — Phase 3.47 Unified Today
+## v0.44.4-test — Phase 3.47 Unified Today
 - 合併 Today Focus 與清單，移除切換列、三項推薦及 Today 每週規劃入口。
 - Today 順序改為 Garden 摘要、行程摘要、今日任務、收合全部任務。
 - 全部任務加入目標篩選。
