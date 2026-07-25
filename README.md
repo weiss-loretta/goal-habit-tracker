@@ -1,5 +1,9 @@
 # Goal & Habit Tracker — Blank IA Prototype
 
+## Current prototype — v0.42.5-test
+真機測試版 Build P03D-0725A。任務、習慣、目標、專案及階段編輯器改用 TimeBlocks 式固定頂部 Sheet：鍵盤彈出時面板頂部保持不動，只從底部縮短；工具列與名稱維持可見，詳細資料在內部捲動。底部導航採 56px 本體、6px 上方 padding 及完整 Home Indicator safe area。本週取消頂部橫向放置列，長按拖拉時改顯示右側垂直日期 Rail，同時高亮真正的垂直日期區塊並支援邊緣自動捲動。Schema 維持 7，儲存鍵維持 `ght_state_blank`。
+
+
 ## Current prototype — v0.42.1
 完成第一輪 iPhone Safari 真機穩定性修正：App shell 固定於 visual viewport，外層文件不再帶動導航上下移動；全卡長按加入 500ms 進度及移動取消；任務、習慣、目標、專案與階段編輯器局部更新時維持同一主面板，並停止反覆搶走中文輸入焦點。目標總覽另加入可恢復安全狀態，日程拖拉自動捲動改用 App 內頁。
 

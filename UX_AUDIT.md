@@ -85,3 +85,11 @@ v0.42.0 已完成 5 MB 限制、future-schema rejection、主要巢狀資料形�
 ## 建議下一輪
 
 v0.42.0 已完成 320–430px viewport matrix、reduced motion、匯入交易安全、quota 警告及大型 fixture 自動測試。下一階段應以系統字體放大、VoiceOver／TalkBack、iOS／Android 鍵盤與 safe area、Android 返回鍵及真機拖拉手感為主；在收到具體使用回饋前凍結大範圍 UI 架構。
+
+
+## v0.42.5-test 真機互動修正
+- 430 × 932 視覺檢查確認底部導航高度與上方留白回復舒適比例。
+- 鍵盤狀態下 Sheet 頂部保持固定，名稱可見，詳細資料只在 Sheet 內捲動。
+- 本週日期 Rail 使用 44px 以上日期按鈕，避開畫面最右邊的系統手勢區，且與垂直日期區塊提供雙重高亮。
+- 自動化 UI audit：五個主頁均無水平 overflow、過小控制、未命名控制、重複 ID 或原生 select。
+- 仍須以 iPhone Safari 及加入主畫面模式驗證真實鍵盤高度、右側 Rail 手感與邊緣自動捲動速度。

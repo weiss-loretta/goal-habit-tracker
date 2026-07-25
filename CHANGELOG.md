@@ -1,5 +1,21 @@
 # Changelog
 
+## v0.42.5-test — Phase 3.41 Fixed Sheet & Vertical Week Rail
+
+### Changed
+- 編輯面板頂部固定於約畫面 18%，鍵盤開啟前後不再上推；面板只從底部縮短。
+- 工具列與名稱保持可見，詳細設定改為獨立內部捲動。
+- 底部導航調整為 56px 本體、6px 上方 padding、2px 下方內容 padding，另保留完整 safe area。
+- 移除本週頂部橫向放置列；拖拉成立後顯示右側七日垂直 Rail。
+- 日期 Rail 與本週垂直日期區塊共用同一落點、高亮及確認標籤；Rail 停留 180ms 會捲到相應日期。
+- 保留 textarea 名稱欄、IME-safe Enter、iOS AutoFill 修正及鍵盤接縫覆蓋。
+
+### Validation
+- 新增 `smoke:phase-341`，驗證固定 Sheet 頂部、鍵盤底部收縮、名稱固定、詳細內容內部捲動、56px 導航、垂直日期 Rail、高亮與實際落點一致。
+- Schema 7、Structured Timeline、Phase 3.32–3.38、Phase 3.41 及 `audit:ui` 通過。
+- UI audit 無水平 overflow、過小控制、未命名控制或重複 ID。
+
+
 ## v0.42.1 — Phase 3.38 iOS Interaction Stability
 
 ### Fixed
