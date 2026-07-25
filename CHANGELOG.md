@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.42.8-test — Phase 3.44 Minimal Editable Semantics
+- 只剩 iOS「上一個／下一個／完成」工具列；聯絡人／地址 AutoFill 已確認消失。
+- 五種 plaintext contenteditable 名稱欄移除共用鍵盤與 textbox 提示屬性。
+- 保留 aria-label、純文字、中文 composition guard、固定名稱區、完整路徑及鍵盤背景 Bridge。
+- 鍵盤右下角文字可能暫時改變，須 iPhone Safari 真機確認 Input Assistant 是否消失。
+
 ## v0.42.7-test — Phase 3.43 Plaintext Title & Compact Hierarchy
 - 任務、習慣、目標、專案及階段名稱欄改為 plaintext contenteditable，移除 `name`／`autocomplete`。
 - 保留中文輸入 composition guard、Enter 完成及輸入期間同一 DOM 節點。

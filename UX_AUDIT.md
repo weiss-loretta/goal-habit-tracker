@@ -1,5 +1,10 @@
 # Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.42.1）
 
+## v0.42.8-test iOS Input Assistant 診斷
+- 名稱欄保留 aria-label，但暫時移除 role、aria-multiline、inputmode、enterkeyhint、autocapitalize 及 spellcheck。
+- 主面板、內部捲動、背景 Bridge、簡約所屬位置與完整路徑不變。
+- 真機驗收重點是五種名稱欄的 Input Assistant 是否全部消失。
+
 ## v0.42.7-test 純文字輸入與資訊密度
 - 名稱欄保留 textbox role、aria-label、inputmode 及 enterkeyhint，但不含表單 `name`／`autocomplete`。
 - 主摘要縮短為目標名稱，完整路徑於第二層呈現。

@@ -1,5 +1,8 @@
 # Goal & Habit Tracker — Blank IA Prototype
 
+## Current prototype — v0.42.8-test
+Build P06D-0725A。五種 plaintext contenteditable 名稱欄暫時移除 role、aria-multiline、inputmode、enterkeyhint、autocapitalize 及 spellcheck，用於診斷 iOS「上一個／下一個／完成」Input Assistant；其餘 v0.42.7 改動維持。Schema 7。
+
 ## Current prototype — v0.42.7-test
 Build P05D-0725A。五種名稱欄改用 `contenteditable="plaintext-only"` 並移除表單 AutoFill 屬性；鍵盤背景 Bridge 改由 Sheet 實際底部延伸。任務「所屬位置」主摘要只顯示目標名稱，點開後才顯示完整路徑。維持 Schema 7。
 

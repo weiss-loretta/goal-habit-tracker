@@ -1,5 +1,10 @@
 # PROJECT.md — 目標與習慣（目前原型）
 
+## Phase 3.44 最小編輯語意診斷
+- Build P06D-0725A，Schema 7。
+- 移除五種名稱欄的 iOS 欄位導覽候選語意，但保留純文字輸入及可存取名稱。
+- 目標是判斷共用輸入提示是否觸發「上一個／下一個／完成」工具列。
+
 ## Phase 3.43 純文字名稱欄與簡約所屬位置
 - Build P05D-0725A，Schema 7。
 - 五種名稱欄使用 plaintext contenteditable，避免 iOS 表單 AutoFill／Input Assistant 語意。
