@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.42.7-test — Phase 3.43 Plaintext Title & Compact Hierarchy
+- 任務、習慣、目標、專案及階段名稱欄改為 plaintext contenteditable，移除 `name`／`autocomplete`。
+- 保留中文輸入 composition guard、Enter 完成及輸入期間同一 DOM 節點。
+- 鍵盤背景 Bridge 從 Sheet 實際底部開始並重疊 4px。
+- 「所屬位置」摘要只顯示目標名稱；第二層顯示完整路徑及「零散任務」。
+- Phase 3.32–3.35、3.41–3.43、Schema 7、Timeline 與 UI audit 通過。
+
 ## v0.42.6-test — Phase 3.42 iOS Title Field Regression
 
 ### Fixed

@@ -1,5 +1,11 @@
 # Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.42.1）
 
+## v0.42.7-test 純文字輸入與資訊密度
+- 名稱欄保留 textbox role、aria-label、inputmode 及 enterkeyhint，但不含表單 `name`／`autocomplete`。
+- 主摘要縮短為目標名稱，完整路徑於第二層呈現。
+- Bridge 由 Sheet 底部連續延伸，避免鍵盤配件區背景截斷。
+- iOS Input Assistant 是否消失仍須真機 Safari 驗證。
+
 ## 範圍
 
 本輪檢查 `今日`、`目標`、`日程`、`花園`、`更多／設定` 五個主要頁面，以及目前的排程面板、確認流程、資料保存及備份入口。專案仍以單一自包含 `index.html` 作為互動原型 source of truth。

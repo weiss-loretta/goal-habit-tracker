@@ -1,5 +1,11 @@
 # PROJECT.md — 目標與習慣（目前原型）
 
+## Phase 3.43 純文字名稱欄與簡約所屬位置
+- Build P05D-0725A，Schema 7。
+- 五種名稱欄使用 plaintext contenteditable，避免 iOS 表單 AutoFill／Input Assistant 語意。
+- 任務主面板只顯示目標名稱；完整目標／專案／階段路徑移至第二層。
+- 直接隸屬目標的任務顯示「目標 › 零散任務」。
+
 ## v0.42.1 目前狀態
 - 鎖定外層 `html/body`，App shell 以 visual viewport 高度固定；標題與底部導航不再隨外層文件上下移動。
 - 中間內容區保留獨立垂直捲動，支援 iPhone safe area、Safari 分頁及加入主畫面模式。
