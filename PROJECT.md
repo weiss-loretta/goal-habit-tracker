@@ -1,7 +1,7 @@
 # PROJECT.md — 目標與習慣（目前原型）
 
 ## Phase 3.47 Today 單頁整合
-- Build P10A-0725A，Schema 8。
+- Build P10B-0725A，Schema 8。
 - 不改資料模型；先以真機驗證 Today 資訊層級、收合清單、目標篩選及剩餘時間。
 
 ## Phase 3.46 穩定面板整合
