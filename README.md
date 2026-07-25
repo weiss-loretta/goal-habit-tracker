@@ -1,5 +1,8 @@
 # Goal & Habit Tracker — Blank IA Prototype
 
+## Current prototype — v0.42.10-test
+Build P08D-0725A。恢復 v0.42.7 已通過真機測試的固定 TimeBlocks 式 Sheet、固定名稱區、內部捲動、連續鍵盤背景及右側日期 Rail。iOS Input Assistant 正式視為系統介面，不再嘗試由網頁隱藏。Schema 7。
+
 ## Current prototype — v0.42.9-test
 Build P07D-0725A。診斷版完整恢復 v0.42.4 已驗證的 textarea、名稱欄 DOM 位置、visualViewport 處理及鍵盤開啟時 Sheet 幾何；保留目前資料、所屬位置摘要、完整路徑及日期 Rail。Schema 7。
 

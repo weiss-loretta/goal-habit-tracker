@@ -1,5 +1,9 @@
 # PROJECT.md — 目標與習慣（目前原型）
 
+## Phase 3.46 穩定面板整合
+- Build P08D-0725A，Schema 7。
+- 產品決定：Safari／PWA 不再嘗試隱藏 iOS Input Assistant；優先確保工具列出現時內容不被遮擋、背景連續及版面穩定。
+
 ## Phase 3.45 v0.42.4 完整輸入對照
 - Build P07D-0725A，Schema 7。
 - 目的：確認 Input Assistant 缺席是否依賴 v0.42.4 的整套 textarea、DOM 位置與鍵盤 Sheet 幾何，而非單一屬性。

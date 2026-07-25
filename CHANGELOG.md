@@ -1,5 +1,11 @@
 # Changelog
 
+## v0.42.10-test — Phase 3.46 Stable Sheet Consolidation
+- 結束 Input Assistant 診斷，恢復 v0.42.7 穩定面板架構。
+- 固定 Sheet 頂部與名稱區，詳細資料維持內部捲動。
+- 保留連續鍵盤背景、Goal-only 摘要、完整路徑、截止日期拖放及右側日期 Rail。
+- 正式接受 iOS 上一個／下一個／完成列為系統介面。
+
 ## v0.42.9-test — Phase 3.45 Exact v0.42.4 Input Comparison
 - 完整恢復 v0.42.4 的五種 textarea 語意及名稱欄在 Sheet body 內的位置。
 - 恢復 v0.42.4 visualViewport 同步、鍵盤 Sheet 頂部、高度、整體捲動及白色背景。

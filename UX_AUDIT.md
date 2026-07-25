@@ -1,5 +1,9 @@
 # Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.42.1）
 
+## v0.42.10-test 穩定面板決定
+- 恢復固定 TimeBlocks 式 Sheet、固定名稱區及詳細資料內部捲動。
+- iOS Input Assistant 視為系統鍵盤介面；不再以更換 textarea、contenteditable 或 ARIA 屬性作規避。
+
 ## v0.42.9-test 對照診斷
 - 暫時接受鍵盤出現時較高的 Sheet，以換取與 v0.42.4 完全一致的輸入環境。
 - 真機只需先判斷五種名稱欄的「上一個／下一個／完成」工具列是否消失。
