@@ -1,6 +1,6 @@
 # Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.42.1）
 
-## v0.43.0-test Today IA
+## v0.44.0-test Today IA
 - 移除 Focus／清單雙模式及三項自動推薦，降低今日決策負擔。
 - Garden 與行程維持摘要層級；今日任務直接操作；全部任務預設收合。
 
@@ -34,7 +34,7 @@
 - 今日、目標、日程及花園主頁沒有未命名的可見表單控制。
 - 日程頁 global FAB 已移除，頁內仍保留「加入時段」、空檔加入及待安排入口。
 - 排程面板的月曆、時間、時長、重複範圍及確認流程已使用同一持續存在的 sheet。
-- Schema 7、`ght_state_blank`、單一 HTML 及無 build 依賴維持不變。
+- Schema 8、`ght_state_blank`、單一 HTML 及無 build 依賴維持不變。
 
 ## 優化優先次序
 
@@ -73,7 +73,7 @@ v0.36.0 已將今日分段、目標新增、日程切換／局部加入，以及
 
 v0.42.0 已加入 localStorage quota failure 可見警告及大型資料 fixture；自動化環境中的同步 render 仍在原型預算內。但 `render()` 與 persistence 尚未分離，真實長期資料、拖拉／滾輪期間的寫入成本及低效能裝置表現仍未驗證。
 
-後續只應在有實測問題證據時考慮 debounce 或保存時機調整，並維持 Schema 7 與既有 storage key。
+後續只應在有實測問題證據時考慮 debounce 或保存時機調整，並維持 Schema 8 與既有 storage key。
 
 ### P2 — 匯入資料完整性
 

@@ -1,24 +1,24 @@
 # PROJECT.md — 目標與習慣（目前原型）
 
 ## Phase 3.47 Today 單頁整合
-- Build P09D-0725A，Schema 7。
+- Build P10A-0725A，Schema 8。
 - 不改資料模型；先以真機驗證 Today 資訊層級、收合清單、目標篩選及剩餘時間。
 
 ## Phase 3.46 穩定面板整合
-- Build P08D-0725A，Schema 7。
+- Build P08D-0725A，Schema 8。
 - 產品決定：Safari／PWA 不再嘗試隱藏 iOS Input Assistant；優先確保工具列出現時內容不被遮擋、背景連續及版面穩定。
 
 ## Phase 3.45 v0.42.4 完整輸入對照
-- Build P07D-0725A，Schema 7。
+- Build P07D-0725A，Schema 8。
 - 目的：確認 Input Assistant 缺席是否依賴 v0.42.4 的整套 textarea、DOM 位置與鍵盤 Sheet 幾何，而非單一屬性。
 
 ## Phase 3.44 最小編輯語意診斷
-- Build P06D-0725A，Schema 7。
+- Build P06D-0725A，Schema 8。
 - 移除五種名稱欄的 iOS 欄位導覽候選語意，但保留純文字輸入及可存取名稱。
 - 目標是判斷共用輸入提示是否觸發「上一個／下一個／完成」工具列。
 
 ## Phase 3.43 純文字名稱欄與簡約所屬位置
-- Build P05D-0725A，Schema 7。
+- Build P05D-0725A，Schema 8。
 - 五種名稱欄使用 plaintext contenteditable，避免 iOS 表單 AutoFill／Input Assistant 語意。
 - 任務主面板只顯示目標名稱；完整目標／專案／階段路徑移至第二層。
 - 直接隸屬目標的任務顯示「目標 › 零散任務」。
@@ -420,11 +420,11 @@ Timeline
 - 底部導航採 56px 本體與較多上方留白，同時保留完整 `safe-area-inset-bottom`。
 - 本週移除頂部橫向 drop bar；拖拉時顯示右側垂直七日 Rail，並同步高亮真正的垂直日期區塊。
 - 使用者可直接拖到可見日期區塊，或利用 Rail 跳到畫面外日期；停留及邊緣拖拉會協助捲動。
-- Phase 3.41 不修改 Schema 7、`ght_state_blank` 或 Task／Session 日期語意。
+- Phase 3.41 不修改 Schema 8、`ght_state_blank` 或 Task／Session 日期語意。
 
 
 ## Phase 3.42 iOS 名稱欄回歸修正
 - 五種編輯器的名稱 textarea 從詳細資料捲動容器移至固定名稱區。
 - textarea 屬性與 v0.42.4 保持一致，不改動中文輸入、AutoFill 或 Enter 行為。
 - 鍵盤可視邊界下方以獨立背景 Bridge 覆蓋 Input Assistant 區域，不讓內容區延伸到鍵盤下方。
-- 本修正不改動固定 Sheet anchor、截止日期、本週垂直日期 Rail、Schema 7 或儲存鍵。
+- 本修正不改動固定 Sheet anchor、截止日期、本週垂直日期 Rail、Schema 8 或儲存鍵。

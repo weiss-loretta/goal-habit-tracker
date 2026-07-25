@@ -1,6 +1,6 @@
 # Changelog
 
-## v0.43.0-test — Phase 3.47 Unified Today
+## v0.44.0-test — Phase 3.47 Unified Today
 - 合併 Today Focus 與清單，移除切換列、三項推薦及 Today 每週規劃入口。
 - Today 順序改為 Garden 摘要、行程摘要、今日任務、收合全部任務。
 - 全部任務加入目標篩選。
@@ -29,7 +29,7 @@
 - 保留中文輸入 composition guard、Enter 完成及輸入期間同一 DOM 節點。
 - 鍵盤背景 Bridge 從 Sheet 實際底部開始並重疊 4px。
 - 「所屬位置」摘要只顯示目標名稱；第二層顯示完整路徑及「零散任務」。
-- Phase 3.32–3.35、3.41–3.43、Schema 7、Timeline 與 UI audit 通過。
+- Phase 3.32–3.35、3.41–3.43、Schema 8、Timeline 與 UI audit 通過。
 
 ## v0.42.6-test — Phase 3.42 iOS Title Field Regression
 
@@ -57,7 +57,7 @@
 
 ### Validation
 - 新增 `smoke:phase-341`，驗證固定 Sheet 頂部、鍵盤底部收縮、名稱固定、詳細內容內部捲動、56px 導航、垂直日期 Rail、高亮與實際落點一致。
-- Schema 7、Structured Timeline、Phase 3.32–3.38、Phase 3.41 及 `audit:ui` 通過。
+- Schema 8、Structured Timeline、Phase 3.32–3.38、Phase 3.41 及 `audit:ui` 通過。
 - UI audit 無水平 overflow、過小控制、未命名控制或重複 ID。
 
 
@@ -85,7 +85,7 @@
 
 ### Validation
 - 匯入檔案上限維持 5 MB，並驗證 JSON、根資料類型及 `CURRENT_SCHEMA`。
-- 拒絕高於 Schema 7 的 future schema。
+- 拒絕高於 Schema 8 的 future schema。
 - 驗證 goals、projects、milestones、tasks、routines、sessions、timeBlocks、events、settings、dailyPlans 及 garden 的必要資料形狀。
 - malformed、future-schema 及 quota failure 均不得覆寫目前資料；成功與失敗均顯示明確狀態。
 

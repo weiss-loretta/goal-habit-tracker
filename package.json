@@ -1,6 +1,6 @@
 {
   "name": "goal-habit-tracker-blank",
-  "version": "0.43.0-test",
+  "version": "0.44.0-test",
   "private": true,
   "description": "Goal & Habit Tracker mobile IA prototype",
   "scripts": {

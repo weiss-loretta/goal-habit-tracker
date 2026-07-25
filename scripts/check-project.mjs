@@ -44,9 +44,10 @@ if (!html.includes('function bumpTask(')) fail('Missing count-task progress hand
 if (!html.includes('countHTML')) fail('Missing task count field');
 if (!html.includes("'task_progress'")) fail('Missing task progress event');
 if (!html.includes('schemaVersion<5')) fail('Missing v5 migration');
-if (!html.includes('schemaVersion:7')) fail('Default schema is not v7');
-if (!html.includes('CURRENT_SCHEMA=7')) fail('Current schema constant is not v7');
+if (!html.includes('schemaVersion:8')) fail('Default schema is not v8');
+if (!html.includes('CURRENT_SCHEMA=8')) fail('Current schema constant is not v8');
 if (!html.includes('schemaVersion||0)<7')) fail('Missing v7 migration');
+if (!html.includes('schemaVersion||0)<8')) fail('Missing v8 migration');
 if (!html.includes('repairTaskRelations')) fail('Missing task relation repair');
 if (!html.includes('rewardTransactions')) fail('Missing reward transaction ledger');
 if (!html.includes('structuredTimeline')) fail('Missing single Structured timeline');

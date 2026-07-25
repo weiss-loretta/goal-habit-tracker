@@ -1,22 +1,22 @@
 # Goal & Habit Tracker — Blank IA Prototype
 
-## Current prototype — v0.43.0-test
-Build P09D-0725A。Today Focus 與清單合併為單一頁面：Garden 摘要、現在後行程摘要、今日任務及收合的全部任務。全部任務支援目標篩選；習慣完成有持續視覺回饋。Schema 7。
+## Current prototype — v0.44.0-test
+Build P10A-0725A。Today Focus 與清單合併為單一頁面：Garden 摘要、現在後行程摘要、今日任務及收合的全部任務。全部任務支援目標篩選；習慣完成有持續視覺回饋。Schema 8。
 
 ## Current prototype — v0.42.10-test
-Build P08D-0725A。恢復 v0.42.7 已通過真機測試的固定 TimeBlocks 式 Sheet、固定名稱區、內部捲動、連續鍵盤背景及右側日期 Rail。iOS Input Assistant 正式視為系統介面，不再嘗試由網頁隱藏。Schema 7。
+Build P08D-0725A。恢復 v0.42.7 已通過真機測試的固定 TimeBlocks 式 Sheet、固定名稱區、內部捲動、連續鍵盤背景及右側日期 Rail。iOS Input Assistant 正式視為系統介面，不再嘗試由網頁隱藏。Schema 8。
 
 ## Current prototype — v0.42.9-test
-Build P07D-0725A。診斷版完整恢復 v0.42.4 已驗證的 textarea、名稱欄 DOM 位置、visualViewport 處理及鍵盤開啟時 Sheet 幾何；保留目前資料、所屬位置摘要、完整路徑及日期 Rail。Schema 7。
+Build P07D-0725A。診斷版完整恢復 v0.42.4 已驗證的 textarea、名稱欄 DOM 位置、visualViewport 處理及鍵盤開啟時 Sheet 幾何；保留目前資料、所屬位置摘要、完整路徑及日期 Rail。Schema 8。
 
 ## Current prototype — v0.42.8-test
-Build P06D-0725A。五種 plaintext contenteditable 名稱欄暫時移除 role、aria-multiline、inputmode、enterkeyhint、autocapitalize 及 spellcheck，用於診斷 iOS「上一個／下一個／完成」Input Assistant；其餘 v0.42.7 改動維持。Schema 7。
+Build P06D-0725A。五種 plaintext contenteditable 名稱欄暫時移除 role、aria-multiline、inputmode、enterkeyhint、autocapitalize 及 spellcheck，用於診斷 iOS「上一個／下一個／完成」Input Assistant；其餘 v0.42.7 改動維持。Schema 8。
 
 ## Current prototype — v0.42.7-test
-Build P05D-0725A。五種名稱欄改用 `contenteditable="plaintext-only"` 並移除表單 AutoFill 屬性；鍵盤背景 Bridge 改由 Sheet 實際底部延伸。任務「所屬位置」主摘要只顯示目標名稱，點開後才顯示完整路徑。維持 Schema 7。
+Build P05D-0725A。五種名稱欄改用 `contenteditable="plaintext-only"` 並移除表單 AutoFill 屬性；鍵盤背景 Bridge 改由 Sheet 實際底部延伸。任務「所屬位置」主摘要只顯示目標名稱，點開後才顯示完整路徑。維持 Schema 8。
 
 ## Current prototype — v0.42.6-test
-真機回歸版 Build P04D-0725A。五種編輯器的名稱 textarea 完整保留 v0.42.4 已驗證的屬性及 IME 行為，但移出詳細資料 scroll container，改為真正固定的獨立名稱區；詳細資料繼續內部捲動。鍵盤可視邊界下方加入純背景延伸層，填平 iOS Input Assistant 區域後方而不增加內容高度。固定 Sheet 頂部、56px 導航、右側垂直日期 Rail、Schema 7 及 `ght_state_blank` 均維持不變。
+真機回歸版 Build P04D-0725A。五種編輯器的名稱 textarea 完整保留 v0.42.4 已驗證的屬性及 IME 行為，但移出詳細資料 scroll container，改為真正固定的獨立名稱區；詳細資料繼續內部捲動。鍵盤可視邊界下方加入純背景延伸層，填平 iOS Input Assistant 區域後方而不增加內容高度。固定 Sheet 頂部、56px 導航、右側垂直日期 Rail、Schema 8 及 `ght_state_blank` 均維持不變。
 
 
 ## Current prototype — v0.42.5-test
