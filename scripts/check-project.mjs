@@ -85,7 +85,7 @@ if (html.includes('＋ 階段 / 階段')) fail('Duplicated Stage wording remains
 if (!html.includes('openSchedulePicker')) fail('Missing manual scheduling picker');
 if (!html.includes('beginTimelineDrag')) fail('Missing long-press timeline drag');
 if (!html.includes('habitScheduleFor')) fail('Missing habit timeline occurrences');
-if (html.includes("['cal','月曆']")) fail('Calendar remains in Schedule tabs');
+if (!html.includes("['cal','月曆']")) fail('Calendar tab is missing from Schedule');
 if (!html.includes("const items=[['today','☀','今日'],['goals','◎','目標'],['timeline','▤','日程']]")) fail('Bottom navigation is not converged');
 if (!html.includes('openGoalStatusSheet')) fail('Missing goal status sheet');
 if (!html.includes('.modal,.filtersheet,.buysheet')) fail('Missing unified panel shell');
@@ -99,7 +99,7 @@ if (!html.includes('function directDurationHTML(scope)')) fail('Current session 
 if (!html.includes('function directSetDuration(scope,minutes)')) fail('Editable duration wheel missing');
 if (!html.includes('todayAllTasksView')) fail('Missing unified Today all-tasks section');
 if (!html.includes("af=baseAf('task')")) fail('FAB does not open Add Action directly');
-if (!html.includes('function viewGoals(){const areaList=state.goals;')) fail('Goal page still depends on Area or Roadmap view');
+if (!html.includes("function viewGoals(){const filter=state.goalStatusFilter||'active'")) fail('Goal page status filter missing');
 if (html.includes("key:'waiting'")) fail('Goal waiting status not removed');
 if (html.includes("['waiting','等待']")) fail('Waiting goal filter not removed');
 

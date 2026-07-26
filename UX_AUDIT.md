@@ -1,6 +1,6 @@
 # Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.42.1）
 
-## v0.44.4-test Today IA
+## v0.47.1-test Today IA
 - 移除 Focus／清單雙模式及三項自動推薦，降低今日決策負擔。
 - Garden 與行程維持摘要層級；今日任務直接操作；全部任務預設收合。
 
