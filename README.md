@@ -1,5 +1,8 @@
 # Goal & Habit Tracker — Blank IA Prototype
 
+## Current prototype — v0.48.0-test
+Build P14A-0726G。目標、任務、專案、習慣統計、日曆負荷及花園的進度條／圓環會在首次顯示時由零平滑進入；同一項目更新後由上一個數值移至新數值。`prefers-reduced-motion: reduce` 會立即顯示結果，不依賴動畫傳達狀態。保留 Schema 8、`ght_state_blank` 及單一 `index.html` 架構。
+
 ## Current prototype — v0.47.1-test
 Build P13B-0726A。Today Focus 與清單合併為單一頁面：Garden 摘要、現在後行程摘要、今日任務及收合的全部任務。全部任務支援目標篩選；習慣完成有持續視覺回饋。Schema 8。
 

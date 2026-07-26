@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.48.0-test — Phase 14 Progress Motion
+- 目標進度圓環、焦點／任務／專案／習慣統計／排程工時／日曆負荷／花園進度條加入平滑進入動畫。
+- 首次顯示由 0 進入目前數值；同一資料項目重新 render 時由上一個數值移至新數值。
+- 花園 SVG 圓環使用相同穩定進度記憶，不會每次更新重新由 0 開始。
+- `prefers-reduced-motion: reduce` 下直接顯示最終值；資訊及完成狀態不依賴動畫。
+- 不修改 Schema 8、storage key、Goal／Task／Session／Habit 語意或備份格式。
+
 ## v0.47.1-test — Phase 3.47 Unified Today
 - 合併 Today Focus 與清單，移除切換列、三項推薦及 Today 每週規劃入口。
 - Today 順序改為 Garden 摘要、行程摘要、今日任務、收合全部任務。

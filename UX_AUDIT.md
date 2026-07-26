@@ -1,4 +1,12 @@
-# Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.42.1）
+# Goal & Habit Tracker — 全程式 UX 審視（更新至 v0.48.0-test）
+
+## v0.48.0-test 進度動畫
+- 進度條與圓環首次由零進入，資料更新時由上一數值平滑移動，避免每次 render 重播。
+- 動畫約 620ms，使用 ease-out，沒有阻擋點按或拖拉。
+- reduced-motion 模式立即顯示最終值。
+- 430 × 932 自動化測試確認 0→50、50→100、reduced-motion 即時 50 及花園 SVG 圓環 hydration。
+- 五個主頁 UI audit 無水平 overflow、未命名控制或重複 ID。
+- 仍需 iPhone Safari 真機確認進度動態是否自然及不影響捲動效能。
 
 ## v0.47.1-test Today IA
 - 移除 Focus／清單雙模式及三項自動推薦，降低今日決策負擔。
